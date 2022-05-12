@@ -3,9 +3,9 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/my_package" />
       <root url="file://$PROJECT_DIR$/my_package_ios" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/integration_test" />
       <root url="file://$PROJECT_DIR$/my_package_android" />
       <root url="file://$PROJECT_DIR$/my_package_web" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/integration_test" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

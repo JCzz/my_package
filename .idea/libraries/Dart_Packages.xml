@@ -152,8 +152,8 @@
         <entry key="crypto">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib" />
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib" />
             </list>
           </value>
         </entry>
@@ -202,14 +202,14 @@
         <entry key="flutter">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter/lib" />
             </list>
           </value>
         </entry>
         <entry key="flutter_driver">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_driver/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_driver/lib" />
             </list>
           </value>
         </entry>
@@ -223,14 +223,14 @@
         <entry key="flutter_test">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_test/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_test/lib" />
             </list>
           </value>
         </entry>
         <entry key="flutter_web_plugins">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_web_plugins/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_web_plugins/lib" />
             </list>
           </value>
         </entry>
@@ -244,7 +244,7 @@
         <entry key="fuchsia_remote_debug_protocol">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/fuchsia_remote_debug_protocol/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/fuchsia_remote_debug_protocol/lib" />
             </list>
           </value>
         </entry>
@@ -286,7 +286,7 @@
         <entry key="integration_test">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/integration_test/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/packages/integration_test/lib" />
             </list>
           </value>
         </entry>
@@ -433,7 +433,7 @@
         <entry key="sky_engine">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../../../../tools/sdk/flutter/bin/cache/pkg/sky_engine/lib" />
+              <option value="$PROJECT_DIR$/../../tools/sdk/flutter/bin/cache/pkg/sky_engine/lib" />
             </list>
           </value>
         </entry>
@@ -648,13 +648,13 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-2.2.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/webdriver-3.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.0/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/bin/cache/pkg/sky_engine/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_driver/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_test/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/flutter_web_plugins/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/fuchsia_remote_debug_protocol/lib" />
-      <root url="file://$PROJECT_DIR$/../../../../tools/sdk/flutter/packages/integration_test/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/bin/cache/pkg/sky_engine/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_driver/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_test/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/flutter_web_plugins/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/fuchsia_remote_debug_protocol/lib" />
+      <root url="file://$PROJECT_DIR$/../../tools/sdk/flutter/packages/integration_test/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
