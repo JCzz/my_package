@@ -1,0 +1,31 @@
+// Copyright 2013 The Flutter Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'package:flutter/material.dart';
+import 'package:my_package_web/my_package_web_plugin.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+/// App for testing
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
+  MyPackageWebPlugin plugin = MyPackageWebPlugin();
+
+  @override
+  Widget build(BuildContext context) {
+    plugin.canLaunch('http://google.com').then((value) => print(value));
+    plugin.getPlatformVersion().then((value) => print(value));
+    return const Directionality(
+      textDirection: TextDirection.ltr,
+      child: Text('Testing... Look at the console output for results!'),
+    );
+  }
+}

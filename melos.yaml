@@ -1,0 +1,15 @@
+name: my_project
+
+packages:
+  - my_package/**
+  - my_package_android/**
+  - my_package_ios/**
+  - my_package_platform_interface/**
+  - my_package_web/**
+# melos run analyze
+scripts:
+  analyze: melos exec -- "dart analyze ."
+
+# Notes:
+# "melos exec <script name"
+# - In a script "melos exec": Basically, it will execute the command or script in every package inside your project.

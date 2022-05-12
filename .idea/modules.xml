@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my_package/example/melos_example.iml" filepath="$PROJECT_DIR$/my_package/example/melos_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package/melos_my_package.iml" filepath="$PROJECT_DIR$/my_package/melos_my_package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_android/melos_my_package_android.iml" filepath="$PROJECT_DIR$/my_package_android/melos_my_package_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_android/example/melos_my_package_android_example.iml" filepath="$PROJECT_DIR$/my_package_android/example/melos_my_package_android_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_ios/melos_my_package_ios.iml" filepath="$PROJECT_DIR$/my_package_ios/melos_my_package_ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_ios/example/melos_my_package_ios_example.iml" filepath="$PROJECT_DIR$/my_package_ios/example/melos_my_package_ios_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_platform_interface/melos_my_package_platform_interface.iml" filepath="$PROJECT_DIR$/my_package_platform_interface/melos_my_package_platform_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_web/melos_my_package_web.iml" filepath="$PROJECT_DIR$/my_package_web/melos_my_package_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_package_web/example/melos_my_package_web_example.iml" filepath="$PROJECT_DIR$/my_package_web/example/melos_my_package_web_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_my_project.iml" filepath="$PROJECT_DIR$/melos_my_project.iml" />
+    </modules>
+  </component>
+</project>
