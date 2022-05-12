@@ -142,22 +142,29 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  my_package_android:
+    dependency: transitive
+    description:
+      path: "../../my_package_android"
+      relative: true
+    source: path
+    version: "0.0.1"
   my_package_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../my_package_ios"
       relative: true
     source: path
     version: "0.0.1"
   my_package_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../my_package_platform_interface"
       relative: true
     source: path
     version: "0.0.1"
   my_package_web:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       path: "../../my_package_web"
       relative: true
@@ -254,3 +261,4 @@ packages:
     version: "2.1.1"
 sdks:
   dart: ">=2.16.2 <3.0.0"
+  flutter: ">=2.5.0"

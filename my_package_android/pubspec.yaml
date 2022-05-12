@@ -20,7 +20,7 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: my_package_platform_interface
+    implements: my_package
     platforms:
       android:
         package: com.example.my_package_android
