@@ -3,14 +3,24 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:my_package_platform_interface/my_package_platform_interface.dart';
+import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 const MethodChannel _channel = MethodChannel('plugins.mydomain.com/my_package_android');
 
 class MyPackageAndroid extends MyPackagePlatform {
 
+  static MyPackagePlatform _instance = MyPackageAndroid();
+
+  static final Object _token = Object();
+
   /// Registers this class as the default instance of [UrlLauncherPlatform].
   static void registerWith() {
     MyPackagePlatform.instance = MyPackageAndroid();
+  }
+
+  static set instance(MyPackagePlatform instance) {
+    PlatformInterface.verify(instance, _token);
+    _instance = instance;
   }
 
   @override

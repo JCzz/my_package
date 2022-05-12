@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   my_package_platform_interface: # awear
     path: ../my_package_platform_interface
+  plugin_platform_interface: ^2.1.2
 
 dev_dependencies:
   flutter_test:
